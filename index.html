@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>治愈空间 - 让心灵找到安静的港湾</title>
+    <meta name="description" content="在这里，找到内心的平静与治愈。精选治愈系文案，帮助您缓解压力，重新发现生活的美好。">
+    <meta name="keywords" content="治愈,心灵治愈,压力缓解,正能量,文案,心理健康,情感治愈">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-green': '#34C759',
+                        'apple-orange': '#FF9500',
+                        'apple-red': '#FF3B30',
+                        'apple-purple': '#AF52DE',
+                        'apple-pink': '#FF2D92',
+                        'apple-gray': '#8E8E93',
+                        'apple-gray-light': '#F2F2F7',
+                        'apple-gray-dark': '#1C1C1E'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .glass-effect {
+            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .floating-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.8s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .heal-card {
+            transition: all 0.3s ease;
+            transform: translateY(0);
+        }
+        
+        .heal-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 min-h-screen">
+    <!-- 导航栏 -->
+    <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-apple-blue">🌸 治愈空间</div>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-apple-blue transition-colors">首页</a>
+                    <a href="#quotes" class="text-gray-700 hover:text-apple-blue transition-colors">治愈文案</a>
+                    <a href="#moments" class="text-gray-700 hover:text-apple-blue transition-colors">美好时刻</a>
+                    <a href="#about" class="text-gray-700 hover:text-apple-blue transition-colors">关于我们</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容区域 -->
+    <main class="pt-16">
+        <!-- 首页区域 -->
+        <section id="home" class="py-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6 fade-in">
+                        在这里，让心灵找到
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-apple-blue to-apple-purple">
+                            治愈的力量
+                        </span>
+                    </h1>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed fade-in">
+                        现代生活节奏快，压力大，每个人都需要一个安静的港湾。
+                        在这里，我们为您精心准备了温暖治愈的文案，帮助您重新找回内心的平静与力量。
+                    </p>
+                </div>
+                
+                <!-- 特色卡片 -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                    <div class="heal-card bg-white/80 backdrop-blur-md rounded-2xl p-8 text-center border border-gray-200">
+                        <div class="text-4xl mb-4">🌙</div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">深夜治愈</h3>
+                        <p class="text-gray-600">当夜深人静时，给疲惫的心灵一份温暖的陪伴</p>
+                    </div>
+                    <div class="heal-card bg-white/80 backdrop-blur-md rounded-2xl p-8 text-center border border-gray-200">
+                        <div class="text-4xl mb-4">🌅</div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">晨光励志</h3>
+                        <p class="text-gray-600">新的一天，从积极正能量的文案开始</p>
+                    </div>
+                    <div class="heal-card bg-white/80 backdrop-blur-md rounded-2xl p-8 text-center border border-gray-200">
+                        <div class="text-4xl mb-4">🌸</div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">情感共鸣</h3>
+                        <p class="text-gray-600">找到那些说到心坎里的话语，你并不孤单</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 治愈文案区域 -->
+        <section id="quotes" class="py-20 px-4 sm:px-6 lg:px-8 bg-white/50">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">今日治愈文案</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                        每天为您更新最新的治愈系文案，让美好的文字成为您生活中的小确幸
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="quotes-container">
+                    <!-- 动态内容将在这里插入 -->
+                </div>
+                
+                <div class="text-center mt-12">
+                    <button id="refresh-quotes" class="bg-apple-blue hover:bg-blue-600 text-white px-8 py-3 rounded-full font-medium transition-colors">
+                        获取更多治愈文案
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 美好时刻区域 -->
+        <section id="moments" class="py-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">美好时刻</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                        捕捉生活中的美好瞬间，让我们一起分享那些温暖人心的时刻
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-8">
+                        <div class="bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-gray-200">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">🌅 清晨的第一缕阳光</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                当温暖的阳光透过窗帘洒在脸上，新的一天开始了。
+                                深呼吸，感受这份来自自然的馈赠，让内心充满感恩。
+                            </p>
+                        </div>
+                        
+                        <div class="bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-gray-200">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">☕ 午后的一杯咖啡</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                在繁忙的工作间隙，为自己冲一杯咖啡。
+                                香气四溢的瞬间，让时间慢下来，享受这份简单的美好。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-8">
+                        <div class="bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-gray-200">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">🌙 夜晚的宁静时光</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                卸下一天的疲惫，在安静的夜晚里与自己对话。
+                                这是属于你的时间，让心灵得到真正的休息。
+                            </p>
+                        </div>
+                        
+                        <div class="bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-gray-200">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-4">🎵 音乐中的治愈</h3>
+                            <p class="text-gray-600 leading-relaxed">
+                                一首喜欢的歌曲，能够瞬间治愈内心的创伤。
+                                让音乐成为你的朋友，在旋律中找到情感的出口。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 心理健康区域 -->
+        <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white/50">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">心理健康小贴士</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                        关爱自己的心理健康，从小事开始，让生活更加美好
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-gradient-to-br from-apple-blue/10 to-apple-blue/20 rounded-2xl p-6 text-center">
+                        <div class="text-3xl mb-3">🧘‍♀️</div>
+                        <h3 class="font-semibold text-gray-900 mb-2">冥想练习</h3>
+                        <p class="text-sm text-gray-600">每天5分钟冥想，让内心更加平静</p>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-apple-green/10 to-apple-green/20 rounded-2xl p-6 text-center">
+                        <div class="text-3xl mb-3">🚶‍♀️</div>
+                        <h3 class="font-semibold text-gray-900 mb-2">户外散步</h3>
+                        <p class="text-sm text-gray-600">接触大自然，释放工作压力</p>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-apple-orange/10 to-apple-orange/20 rounded-2xl p-6 text-center">
+                        <div class="text-3xl mb-3">📝</div>
+                        <h3 class="font-semibold text-gray-900 mb-2">情绪日记</h3>
+                        <p class="text-sm text-gray-600">记录心情，了解自己的情绪变化</p>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-apple-purple/10 to-apple-purple/20 rounded-2xl p-6 text-center">
+                        <div class="text-3xl mb-3">🤗</div>
+                        <h3 class="font-semibold text-gray-900 mb-2">社交连接</h3>
+                        <p class="text-sm text-gray-600">与朋友交流，分享彼此的感受</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我们区域 -->
+        <section id="about" class="py-20 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">关于治愈空间</h2>
+                <div class="bg-white/80 backdrop-blur-md rounded-2xl p-8 md:p-12 border border-gray-200">
+                    <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                        现代社会节奏快，竞争激烈，每个人都面临着各种压力。我们深知在这个"内卷"的时代，
+                        人们需要一个能够让心灵得到片刻安宁的地方。
+                    </p>
+                    <p class="text-lg text-gray-600 leading-relaxed mb-6">
+                        治愈空间致力于为大家提供温暖、正能量的内容，通过精心挑选的治愈系文案、
+                        实用的心理健康建议和美好生活的分享，帮助大家在忙碌的生活中找到内心的平静。
+                    </p>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        我们相信，每个人都值得被温柔对待，每个心灵都需要治愈的力量。
+                        让我们一起在这个充满爱与温暖的空间里，重新发现生活的美好。
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">🌸 治愈空间</h3>
+                    <p class="text-gray-400">让心灵找到安静的港湾</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">快速链接</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#home" class="hover:text-white transition-colors">首页</a></li>
+                        <li><a href="#quotes" class="hover:text-white transition-colors">治愈文案</a></li>
+                        <li><a href="#moments" class="hover:text-white transition-colors">美好时刻</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors">关于我们</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">联系我们</h4>
+                    <p class="text-gray-400">如果您有任何建议或想法，欢迎与我们分享</p>
+                    <p class="text-gray-400 mt-2">让我们一起创造更美好的治愈空间</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 治愈空间. 用心治愈每一个疲惫的心灵.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 治愈文案数据
+        const healingQuotes = [
+            {
+                text: "慢慢来，不要急。生活给你出了难题，可也终有一天会给出答案。",
+                author: "心灵治愈师",
+                emotion: "🌙"
+            },
+            {
+                text: "你要相信，那些偷偷溜走的时光，催老了我们的容颜，却丰盈了我们的人生。",
+                author: "时光漫步者",
+                emotion: "🌅"
+            },
+            {
+                text: "每一个不曾起舞的日子，都是对生命的辜负。",
+                author: "生活艺术家",
+                emotion: "💃"
+            },
+            {
+                text: "愿你在被打击时，记起你的珍贵，抵抗恶意；愿你在迷茫时，坚信你的珍贵。",
+                author: "心灵守护者",
+                emotion: "✨"
+            },
+            {
+                text: "生活不是等待暴风雨过去，而是要学会在雨中跳舞。",
+                author: "雨中舞者",
+                emotion: "🌧️"
+            },
+            {
+                text: "你要做一个不动声色的大人了。不准情绪化，不准偷偷想念，不准回头看。",
+                author: "成长导师",
+                emotion: "🌱"
+            },
+            {
+                text: "世界很大，风景很美，机会很多，人生很短，不要蜷缩在一处阴影中。",
+                author: "旅行者",
+                emotion: "🌍"
+            },
+            {
+                text: "温柔正确的人总是难以生存，因为这世界既不温柔，也不正确。",
+                author: "温柔守护者",
+                emotion: "🤗"
+            },
+            {
+                text: "你要储存你的可爱，眷顾你的善良，当这个世界越来越坏时，只希望你能越来越好。",
+                author: "善良使者",
+                emotion: "💝"
+            },
+            {
+                text: "人生最美好的事情就是，因为你，别人的日子更加美好。",
+                author: "美好传递者",
+                emotion: "🌈"
+            },
+            {
+                text: "愿你眼中总有光芒，活成你想要的模样。",
+                author: "光芒守护者",
+                emotion: "🌟"
+            },
+            {
+                text: "不要害怕你的生活将要结束，应该担心你的生活永远不会真正开始。",
+                author: "生活启蒙者",
+                emotion: "🚀"
+            }
+        ];
+
+        // 随机获取治愈文案
+        function getRandomQuotes(count = 6) {
+            const shuffled = healingQuotes.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, count);
+        }
+
+        // 渲染治愈文案
+        function renderQuotes() {
+            const container = document.getElementById('quotes-container');
+            const quotes = getRandomQuotes();
+            
+            container.innerHTML = quotes.map(quote => `
+                <div class="heal-card bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-gray-200">
+                    <div class="text-4xl mb-4 text-center">${quote.emotion}</div>
+                    <blockquote class="text-lg text-gray-700 leading-relaxed mb-6">
+                        "${quote.text}"
+                    </blockquote>
+                    <footer class="text-apple-blue font-medium text-center">
+                        —— ${quote.author}
+                    </footer>
+                </div>
+            `).join('');
+        }
+
+        // 刷新文案按钮事件
+        document.getElementById('refresh-quotes').addEventListener('click', () => {
+            renderQuotes();
+        });
+
+        // 平滑滚动导航
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // 页面加载时初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            renderQuotes();
+            
+            // 添加滚动动画
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            document.querySelectorAll('.heal-card').forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'all 0.6s ease-out';
+                observer.observe(card);
+            });
+        });
+
+        // 每30秒自动刷新文案
+        setInterval(() => {
+            renderQuotes();
+        }, 30000);
+    </script>
+</body>
+</html> 
