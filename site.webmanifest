@@ -1,0 +1,23 @@
+{
+  "name": "治愈空间 - 心理治愈平台",
+  "short_name": "治愈空间",
+  "description": "专业的心理治愈平台，提供情感疗愈、身心健康指导、自我修复方法、内心平静技巧",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007AFF",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["health", "lifestyle", "education"],
+  "lang": "zh-CN"
+}
